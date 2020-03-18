@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "centered-accord-271002",
+  "private_key_id": "05501a7fa707897989b5113eee9b4b2fc56229e2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQasdevXSaIX84\ngAQnr5J/9vyen9E90VVugFHArwQJ6C4yFOipw+xI4e8BX2zdid+nxJncxXaRlhpd\ntJsCi5pM9PNSnu5ttxkrl5PIE0lIXU0o/pO3BIH6b7ggL4STw3mSm9AtC5AVWviU\nTI+IrOo15CGNO9dnG9yxGov/bfNKbHyzad5b/9D+t9YI4PzpuiOwru/9GjURlQUC\nUvAK4t6qqrCrTzp6b5zLpz7rMryAgSFfeW44mBaKqm/LcFJiozLivPSlWh+vJc7r\ntZ9NqaKzQthLBj1C1Y9YGoo7ePd6wKoKoj3FuiNqS48D/67+3HGB5QtWEpabAzZO\nmvGIAkA5AgMBAAECggEAAcbjR8LAP38pHUN0JZ1414f0y+prZ4ZFHvHPoJ+tXmNB\nH5KvkCD4Pv/UIJQecr4V7tF9iVUSp3ea5nEfgDRN/rl46JurxzowJ/+9Fg/aCFip\nS3/uJPmQHSE+NeIJ1JOuUeprqjKmyhPSOjtz3tOwlICLK6/WrI2fglAKYQVgNWJ2\n9Z9KAxVDOUPanQHAhggVhqSVmh0Qk8WO0u4nKxif4a2y8K7fIxPQBmKyxVy7BF8K\nxdBEj3YoSDA/04VrY+0kTm9Jst9C51SywM04TCXtTpfEtC7kfzWeRF5qikkJ/HPp\nJTZNWmSkDYcDCumZV8tJF5QpxT15ggD8VVOAAXXeoQKBgQDwO93lkSRxa/7GAK1N\ns62EB78EPI8CnMRuvXyAYNcWvULfczxIgLMniVeCXk54QSkrTZcYMbKDIdQKbjKm\nyDhajPd9Y5wLyOb6R+KDB3tuPvj4XetJqdzYoNtwmdfYN1qHfBS890DkfJdp6wSf\nkqTqT07IxZ1YOvC3QN/vACNhSQKBgQDeGF0QGlZdYlnR5lv9Msr3EMaS5FGcI22x\nplKrHJFYrvGOYYJ59aLA/qE34jltF5IVD+sZVFdu07C0gMAsaxjXYjaSVG5YWlf9\nwqYM3xreMgyS3K6DTN0BZxkdNFIUKBIhlZBWOOKmDaGOn/XJ8fFAeSRcRA+leO5C\n5B0iZDDXcQKBgQDXZUYi1I1xaNxJmkfI+IZmcC+T09yCAh+aDym3TZzs1YtFIGR3\nuXVoyJr+2CHRbtND8VC9L6oYK1ecdovRwInOnsA03AAJDPwUgimVRDsmcS34OvWA\n2d2bGjdG8Zl3UsJH4jgR6jtz4kY8gK1niit1ruA74fufJVG5bWCbQWt3iQKBgQDC\nFFxO1BUgqe9/w2QjkR1YZeqBNtAyN6uGEKgxK1fAPbCNEZzpYsQFDv5nTWONd4mK\nqkxx6Ag3qvnB4rkMl9IvdX3mxa1fvCMkd9KPcO+Tt/zQ4dQGnUaMEUIbCTuorZOa\nkY5+Klu1bDf/4Lzy6mA+TR5/GmLp4RGklp73DMK5oQKBgQDnAXsJSVSR978rYbH2\nN3yNuQC8RFYHxqkVAu5ykUIQURvM5BYOuIgTQyRH9NRpB6iusdGFWKOc9mCEG6LD\nXlAjpowCZdVtuAfGEkia7fFRWOkmA7UycodJjTRuus65Y4j1TwPsE8htNIrRNqvh\nnZvj9D05P+KreFy7f19xz1ixVQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "airbnbdata@centered-accord-271002.iam.gserviceaccount.com",
+  "client_id": "105068619080475089537",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/airbnbdata%40centered-accord-271002.iam.gserviceaccount.com"
+}
