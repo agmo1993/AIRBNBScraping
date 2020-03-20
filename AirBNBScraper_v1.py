@@ -141,7 +141,7 @@ class Scraper:
                 print(str(e))
                 break
 
-        self.data.to_excel("Results.xlsx")
+        #self.data.to_excel("Results.xlsx")
         spreadsheet_key = Spread("https://docs.google.com/spreadsheets/d/15_YZB-LVAa2NkHORZ8nvBq25YBj4R7ZUHjY11HRl0R4/edit#gid=0")
         spreadsheet_key.df_to_sheet(self.data, index=False, sheet=(self.location+" "+self.date))
         price = self.data["price"].values
