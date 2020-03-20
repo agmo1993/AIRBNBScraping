@@ -234,8 +234,10 @@ class Scraper:
             try:
                 bedrooms = None
                 bedroom_bathroom = soup.findAll("div", {"class": "_czm8crp"})
-                bedrooms = bedroom_bathroom[0]
+                """print(bedroom_bathroom)"""
+                bedrooms = bedroom_bathroom[2]
                 bedrooms = bedrooms.text
+                print(bedrooms)
                 bedrooms = re.findall('\d+',bedrooms)[0]
                 self.data.set_value(ind,'bedrooms',bedrooms)
             except Exception as e:

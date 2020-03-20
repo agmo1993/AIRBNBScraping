@@ -34,7 +34,7 @@ class Scraper:
         self.driver = webdriver.Firefox(executable_path=r'C:/Users/Abdul Rehman/Downloads/geckodriver-v0.26.0-win64/geckodriver.exe')
         now = datetime.datetime.now()
         self.date = now.strftime("%Y.%m.%d")
-        self.data = pd.DataFrame(columns=['check_in','check_out','listing_id', 'price', 'url','cleaning_fee','service_fee','host','host_id'])
+        self.data = pd.DataFrame(columns=['check_in','check_out','listing_id', 'price', 'url','cleaning_fee','service_fee','host','host_id','review'])
         #self.f = open("cometic_test" + self.date + ".csv","w", encoding='utf8')
         #button = self.driver.find_element_by_xpath('//*[@class="emailReengagement_close_button"]')
         #button.click()
@@ -78,7 +78,8 @@ class Scraper:
 
         soup = BeautifulSoup(self.driver.page_source,'lxml')
         containers = soup.findAll("div", {"class": "_1wz0grtk"})
-        
+        reviews = soup.findAll("span", {"class": "_3zgr580"})
+        counter = 0 
 
         for container in containers:
             new_row = {}
@@ -92,8 +93,11 @@ class Scraper:
             new_row["check_in"] = self.check_in
             new_row["check_out"] = self.check_out
             new_row["listing_id"] = listing_id
-            
-
+            review = reviews[coounter]
+            review = review.text
+            print(review)
+            new_row["review"] = review 
+            counter += 1
 
 
             #print(listing_id)
@@ -321,10 +325,10 @@ class Scraper:
 
 airbnb_scraper = Scraper()
 
-#airbnb_scraper.inputPrompt()
-#airbnb_scraper.keepCrawling()
-#airbnb_scraper.checkIndividualProperties()
-airbnb_scraper.sendMessagetoHost()
+airbnb_scraper.inputPrompt()
+airbnb_scraper.keepCrawling()
+airbnb_scraper.checkIndividualProperties()
+#airbnb_scraper.sendMessagetoHost()
 
 #airbnb_scraper.testSoup()
 
