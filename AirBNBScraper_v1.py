@@ -93,7 +93,7 @@ class Scraper:
             new_row["check_in"] = self.check_in
             new_row["check_out"] = self.check_out
             new_row["listing_id"] = listing_id
-            review = reviews[coounter]
+            review = reviews[counter]
             review = review.text
             print(review)
             new_row["review"] = review 
